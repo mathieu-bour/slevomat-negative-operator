@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd"
+>
+    <rule ref="SlevomatCodingStandard.Operators.NegationOperatorSpacing">
+        <properties>
+            <property name="spacesCount" value="0"/>
+        </properties>
+    </rule>
+
+    <file>test.php</file>
+</ruleset>
