@@ -1,5 +1,7 @@
 # NegationOperatorSpacing false positive
 
+Issue: https://github.com/slevomat/coding-standard/issues/951
+
 `SlevomatCodingStandard.Operators.NegationOperatorSpacing` returns a false positive when
 assigning a negative number like `$a = -1` with property `spacesCount` set to zero.
 
