@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - with-dev-master
 jobs:
   lint:
     name: Lint with PHP_CodeSniffer

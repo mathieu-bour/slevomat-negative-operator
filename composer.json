@@ -11,6 +11,6 @@
   ],
   "require": {
     "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
-    "slevomat/coding-standard": "6.1.5"
+    "slevomat/coding-standard": "dev-master"
   }
 }
